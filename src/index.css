@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(2, 6, 2, 0.902);
+    color: white;
+    border-radius:15px ;
+    max-width: 300px;
+    margin: 0px auto;
+    padding: 0px;
+
+}
+
+.info-container{
+    padding: 1px 1px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.info-container > .pic{
+    background-image: url("components/belay.png");
+    margin: 5px 60px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.info-container > .info > h2{
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: auto;
+}
+
+.info-container > .info > h3{
+    margin: 5px;
+    font-style: italic;
+}
+.info-container > .info > h4{
+    font-size: small;
+    margin: 10px;
+    font-style: italic;
+}
+
+.info-container > .button{
+    margin: auto;
+}
+
+.info-container > .button > ul {
+    display: flex;
+}
+
+.info-container > .button > ul > li{
+    display: flex;
+    margin-left: 13px;
+}
+
+.info-container > .button > ul > .email{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.info-container > .button > ul > .email > a{
+    color: black;
+    text-decoration: none;
+}
+
+.info-container > .button > ul > .email span{
+    padding: 5px;
+}
+
+.info-container > .button > ul > .email:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.info-container > .button > ul> .linkedin{
+    background-color: rgb(0, 83, 128);
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.info-container > .button > ul > .linkedin > a{
+    color: white;
+    text-decoration: none;
+}
+
+.info-container > .button > ul > .linkedin span{
+    padding: 5px;
+}
+
+.info-container > .button > ul > .linkedin:hover{
+    background-color: blueviolet;
+}
+
+.about-container{
+    margin: auto;
+    padding: 0px 20px;
+
+}
+
+.interests-container{
+    padding: 0px 20px;
+}
+
+.footer-container{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: black;
+    padding-left: 6px;
+    font-size: 2rem;
+}
+
+.footer-container > ul{
+    display: flex;
+    padding: 8px;
+    margin: auto;
+}
+
+.footer-container > ul > li{
+    display: flex;
+    padding-left: 33px;
+
+}
+
+.footer-container > ul > li > a{
+    color: black;
+    background-color: white;
+    padding: 1px 2px;
+    border-radius: 3px;
+}
+
+.footer-container > ul > li > a:hover{
+    background-color: blueviolet;
+    color: white;
+}
